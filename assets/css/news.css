@@ -1,0 +1,45 @@
+.main{
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+.card-container{
+            background-color: whitesmoke;
+            padding: 15px;
+            border-left: 5px solid blueviolet;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+         h2 {
+            color: blueviolet;
+            border-bottom: 2px solid blueviolet;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card-body{
+            display:flex;
+            justify-content: space-between;
+        }
+        .card-img{
+           width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+            
+            
+        }
+        .card-description{
+            text-align:justify;
+        }
+        .card-footer{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        
